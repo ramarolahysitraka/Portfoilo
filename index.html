@@ -2,49 +2,45 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | RAMAROLAHY Sitraka</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="Style.css">
+<title>Portfolio | RAMAROLAHY Sitraka</title>
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="Style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
 
 <header class="header">
 
-    <a href="#" class="logo">
-        <span>RAMAROLAHY Sitraka</span>
-    </a>
+<a href="#" class="logo">
+<span>RAMAROLAHY Sitraka</span>
+</a>
 
-    <ul class="nav-links">
+<ul class="nav-links">
 
-        <li>
-            <a href="#about"> PROPOS</a>
-        </li>
+<li><a href="#about"> PROPOS</a></li>
 
-        <li>
-            <a href="#experience">COMPETENCE</a>
-        </li>
+<li><a href="#competence">COMPETENCE</a></li>
 
-        <li>
-            <a href="#projects">PROJETS</a>
-        </li>
+<li><a href="#etude">ETUDE</a></li>
 
-        <li>
-            <a href="#contact">CONTACT</a>
-        </li>
+<li><a href="#projects">PROJETS</a></li>
 
-    </ul>
+<li><a href="#contact">CONTACT</a></li>
 
-    <i class="fa fa-bars" id="menu-icon"></i>
+</ul>
 
-    <button class="visit-btn">
-        Visiter Github
-    </button>
+<i class="fa fa-bars" id="menu-icon"></i>
+
+<button class="visit-btn">
+Visiter Github
+</button>
 
 </header>
 
@@ -55,7 +51,7 @@
 
 <div class="about-container">
 
-<img src="IMG/BeautyPlus_20240131121204962_save.jpg" alt="Photo de profil">
+<img class="profile-img" src="IMG/BeautyPlus_20240121231337759_save.jpg" alt="Photo de profil">
 
 <div class="info-box">
 
@@ -92,55 +88,53 @@
 </section>
 
 
+<!-- COMPETENCE -->
 
-<!-- EXPERIENCE -->
-
-<section id="experience" class="experience">
+<section id="competence" class="experience">
 
 <h2 class="section-title">Mes Compétences</h2>
 
-<div class="experience-info">
+<div class="skills">
 
-<div class="grid">
+<div class="skill">
 
-<div class="grid-card">
+<p>Algorithme</p>
 
-<span>Algorithme</span>
-
-<h3>Niveau Débutant</h3>
-
-<p>Je possède des bases en algorithmique comme les structures de contrôle, les variables et les instructions de base.</p>
+<div class="progress-bar">
+<div class="progress algo"></div>
+</div>
 
 </div>
 
-<div class="grid-card">
 
-<span>Langage C</span>
+<div class="skill">
 
-<h3>Niveau Débutant</h3>
+<p>Langage C</p>
 
-<p>Je commence à programmer en langage C avec les structures fondamentales : variables, boucles et conditions.</p>
+<div class="progress-bar">
+<div class="progress c"></div>
+</div>
 
 </div>
 
-<div class="grid-card">
 
-<span>HTML & CSS</span>
+<div class="skill">
 
-<h3>Niveau Débutant</h3>
+<p>HTML</p>
 
-<p>Je sais créer des pages web simples avec HTML et les styliser avec CSS.</p>
+<div class="progress-bar">
+<div class="progress html"></div>
+</div>
 
 </div>
 
-<div class="grid-card">
 
-<span>Python</span>
+<div class="skill">
 
-<h3>Niveau Débutant</h3>
+<p>CSS</p>
 
-<p>Je découvre le langage Python pour apprendre la programmation et résoudre des problèmes informatiques.</p>
-
+<div class="progress-bar">
+<div class="progress css"></div>
 </div>
 
 </div>
@@ -149,6 +143,57 @@
 
 </section>
 
+
+
+<!-- ETUDE -->
+
+<section id="etude" class="experience">
+
+<h2 class="section-title">Mon Parcours d'Étude</h2>
+
+<div class="experience-info">
+
+<img class="etude-img" src="IMG/BeautyPlus_20240122115613757_save.jpg" alt="Photo parcours">
+
+<div class="grid">
+
+<div class="grid-card">
+
+<span>CEPE</span>
+<h3>Certificat d'Études Primaires</h3>
+<p>Obtention du diplôme de fin d'études primaires.</p>
+
+</div>
+
+<div class="grid-card">
+
+<span>BEPC</span>
+<h3>Brevet d'Études du Premier Cycle</h3>
+<p>Validation du premier cycle de l'enseignement secondaire.</p>
+
+</div>
+
+<div class="grid-card">
+
+<span>BACC</span>
+<h3>Baccalauréat</h3>
+<p>Obtention du diplôme permettant l'accès à l'université.</p>
+
+</div>
+
+<div class="grid-card">
+
+<span>Université</span>
+<h3>1ère année (Aujourd'hui)</h3>
+<p>Étudiant en Informatique parcours DA2I EMIT.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
 
 
 <!-- PROJECTS -->
@@ -161,11 +206,11 @@
 
 <div class="projects-card">
 
-<img src="IMG/projet1.jpg" alt="Projet 1">
+<img src="IMG/Responsive-web-design-on-different-devices-1024x639.webp">
 
 <h3>Site Web Personnel</h3>
 
-<p>Création d'un site web personnel pour présenter mes compétences, mes projets et mes informations de contact.</p>
+<p>Création d'un site web personnel pour présenter mes compétences et mes projets.</p>
 
 <div class="btn-group">
 
@@ -180,11 +225,11 @@
 
 <div class="projects-card">
 
-<img src="IMG/projet2.png" alt="Projet 2">
+<img src="IMG/1280-720.webp">
 
 <h3>Projet HTML / CSS</h3>
 
-<p>Réalisation d'une interface web simple avec HTML et CSS pour apprendre la structure d'une page web.</p>
+<p>Création d'une interface web simple avec HTML et CSS.</p>
 
 <div class="btn-group">
 
@@ -199,11 +244,11 @@
 
 <div class="projects-card">
 
-<img src="IMG/pojet 3.png" alt="Projet 3">
+<img src="IMG/maxresdefault.jpg">
 
 <h3>Projet Algorithmique</h3>
 
-<p>Développement de petits programmes d'algorithmique pour résoudre des exercices et améliorer ma logique.</p>
+<p>Résolution de plusieurs exercices d'algorithmique.</p>
 
 <div class="btn-group">
 
@@ -252,11 +297,9 @@
 <ul>
 
 <li><a href="#about">A PROPOS</a></li>
-
-<li><a href="#experience">EXPERIENCE</a></li>
-
+<li><a href="#competence">COMPETENCE</a></li>
+<li><a href="#etude">ETUDE</a></li>
 <li><a href="#projects">PROJETS</a></li>
-
 <li><a href="#contact">CONTACT</a></li>
 
 </ul>
@@ -269,13 +312,8 @@
 
 </footer>
 
-
-
 <script src="script.js"></script>
 
 </body>
-
 </html>
-
-
 
